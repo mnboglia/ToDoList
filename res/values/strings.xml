@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, todolistActivity!</string>
+    <string name="app_name">Administrador de Tareas</string>
+
+</resources>
