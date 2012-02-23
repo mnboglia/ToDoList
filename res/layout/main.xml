@@ -10,21 +10,16 @@
         android:layout_height="wrap_content"
         android:baselineAligned="false"
         android:orientation="horizontal"
-        android:padding="5sp" >
+        >
 
         <ImageButton
             android:id="@+id/btnAdd"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.25"
-            android:src="@drawable/add" />
+            android:src="@drawable/add" /><ImageButton android:id="@+id/btnDelete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.10" android:src="@drawable/delete" />
 
-        <ImageButton
-            android:id="@+id/btnDelete"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.10"
-            android:src="@drawable/delete"/>
+        
 
     </LinearLayout>
 
